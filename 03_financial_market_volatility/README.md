@@ -39,4 +39,4 @@ The project compares several model families, including:
 - `data_sources.md`: data source and variable documentation
 - `requirements.txt`: Python package list
 - `.html` files: supplemental rendered notebook exports
-- `full_academic_report.pdf`: full academic report
+- `time_series_full_academic_report.pdf`: full academic report
