@@ -36,4 +36,4 @@ The project compares classical time-series models and machine learning models, i
 - `data_sources.md`: data source and variable documentation
 - `requirements.txt`: Python package list
 - `.html` files: supplemental rendered notebook exports
-- `../shared_resources/time_series_full_academic_report.pdf`: full academic report
+- `full_academic_report.pdf`: full academic report
