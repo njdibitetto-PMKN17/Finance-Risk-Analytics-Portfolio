@@ -28,12 +28,12 @@ The project compares classical time-series models and machine learning models, i
 - Financial stress and credit-market interpretation
 - Machine learning model comparison
 
-## Planned Files
+## Files
 
-- `notebook.ipynb`: full technical notebook
-- `notebook.html`: rendered notebook export
+- `01_data_cleaning_and_merging.ipynb`: data collection, cleaning, merging, and feature preparation
+- `02_modeling_and_analysis.ipynb`: forecasting models, evaluation metrics, and interpretation
 - `executive_summary.md`: recruiter-facing business summary
-- `full_academic_report.pdf`: longer academic report
-- `data_sources.md`: source and variable documentation
+- `data_sources.md`: data source and variable documentation
 - `requirements.txt`: Python package list
-- `visuals/`: selected figures and charts
+- `.html` files: supplemental rendered notebook exports
+- `../shared_resources/time_series_full_academic_report.pdf`: full academic report
