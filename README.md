@@ -1,12 +1,12 @@
 # Finance Risk Analytics Portfolio
 
-This repository contains applied finance and risk analytics projects focused on credit risk monitoring, financial stress forecasting, and financial market volatility forecasting. The projects use Python, SQL, statistical modeling, machine learning, and financial interpretation to convert market and macroeconomic data into risk-focused insights.
+This repository contains applied finance and risk analytics projects focused on credit risk monitoring, financial stress forecasting, and financial market volatility forecasting. The projects use Python, SQL (SQLite), Streamlit, statistical modeling, machine learning, and financial interpretation to convert market and macroeconomic data into risk-focused insights.
 
 ## Projects
 
 ### 1. Credit Risk Detection & Monitoring Dashboard
 
-A Python, SQLite, and Streamlit dashboard designed to monitor macro-credit conditions using public FRED data across market stress, labor risk, interest-rate pressure, yield-curve pressure, and realized credit performance.
+A Python, SQL (SQLite), and Streamlit dashboard designed to monitor macro-credit conditions using public FRED data across market stress, labor risk, interest-rate pressure, yield-curve pressure, and realized credit performance.
 
 **Folder:** `01_credit_risk_detection_monitoring_dashboard/`
 
@@ -24,15 +24,18 @@ A Python, SQLite, and Streamlit dashboard designed to monitor macro-credit condi
 - Category feature drilldown
 - ARIMA model diagnostics and limitations
 
-**Tools used:**
+**Tools / methods used:**
 
 - Python
 - pandas
-- SQLite
+- SQL (SQLite)
 - Streamlit
 - Altair
 - ARIMA
 - FRED public economic data
+- Expanding percentile scoring
+- Composite risk regime classification
+- Interactive dashboard sensitivity analysis
 
 **Primary focus areas:**
 
@@ -50,13 +53,18 @@ This project forecasts one-week-ahead changes in the STLFSI4 financial stress in
 
 **Folder:** `02_financial_stress_indicators/`
 
-Methods used:
+**Tools / methods used:**
 
+- Python
+- pandas
+- Time-series feature engineering
 - ARIMA
 - ARIMAX
 - VAR
 - Random Forest
 - XGBoost
+- Chronological train/test validation
+- RMSE, MAE, and directional accuracy evaluation
 
 Key focus areas:
 
@@ -73,14 +81,18 @@ This project forecasts 21-day annualized S&P 500 realized volatility using reali
 
 **Folder:** `03_financial_market_volatility/`
 
-Methods used:
+**Tools / methods used:**
 
+- Python
+- pandas
+- Realized-volatility feature engineering
 - ARIMA
 - ARIMAX
 - GARCH
 - EGARCH
 - Random Forest
 - XGBoost
+- Classical model and machine-learning benchmark comparison
 
 Key focus areas:
 
@@ -116,6 +128,6 @@ Each project folder includes some or all of the following:
 - `.html` exports: supplemental rendered notebook files
 - `full_academic_report.pdf`: full academic report where applicable
 
-## Notes
+#### Note
 
-The two completed forecasting projects were developed as applied finance analytics projects using public market and macroeconomic data. The credit risk project is being developed as a practical SQL and Python analyst workflow to complement the more model-heavy forecasting projects.
+The tools and methods listed above summarize the main technologies and modeling approaches used across the portfolio. Individual projects may include additional Python libraries for data processing, visualization, statistical modeling, machine learning, and diagnostic evaluation. Package-level details are documented within each project folder where applicable.
