@@ -17,22 +17,23 @@ The project is designed to answer the following questions:
 7. What does the baseline forward outlook imply for near-term monitoring?
 
 ## Dashboard Screenshots
+Click any screenshot to open the full-resolution image.
 
 ### Dashboard Overview and Category Drivers
 
-![Dashboard Overview](assets/crd_shot1.png)
+[![Dashboard Overview](assets/crd_shot1.png)](assets/crd_shot1.png)
 
 ### Feature Drilldown, Historical Score, and Forecast Outlook
 
-![Feature Drilldown and Forecast Outlook](assets/crd_shot2.png)
+[![Feature Drilldown and Forecast Outlook](assets/crd_shot2.png)](assets/crd_shot2.png)
 
 ### Forecast Tables and Model Diagnostics
 
-![Forecast Tables and Diagnostics](assets/crd_shot3.png)
+[![Forecast Tables and Diagnostics](assets/crd_shot3.png)](assets/crd_shot3.png)
 
 ### ARIMA Diagnostic Interpretation
 
-![Diagnostic Interpretation](assets/crd_shot4.png)
+[![Diagnostic Interpretation](assets/crd_shot4.png)](assets/crd_shot4.png)
 
 ## Methods Used
 
@@ -49,29 +50,37 @@ The project is designed to answer the following questions:
 - Local Streamlit dashboard
 - Interactive weight and threshold sensitivity analysis
 
-## Risk Categories
+## Risk Categories and Input Variables
 
-The composite score is built from four macro-credit risk channels:
+The composite score is built from four macro-credit risk channels. Each input is transformed into a comparable risk signal and then converted into expanding percentile scores to avoid lookahead bias.
 
 1. **Market / Financial Stress**
-   - VIX volatility
-   - Credit-spread pressure
-   - Financial stress indicators
+   - VIX 3-month average
+   - VIX 3-month change
+   - BAA-Treasury spread 3-month average
+   - BAA-Treasury spread 3-month change
+   - STLFSI4 financial stress index 3-month average
+   - STLFSI4 financial stress index 3-month change
 
 2. **Macro / Labor Risk**
-   - Unemployment level and trend
+   - Unemployment rate 3-month average
+   - Unemployment rate 3-month change
 
 3. **Rate / Yield-Curve Pressure**
-   - Long-term Treasury yield pressure
+   - 30-year Treasury yield 3-month average
+   - 30-year Treasury yield 3-month change
    - Yield-curve inversion risk
 
 4. **Realized Credit Performance**
-   - Delinquency rates
-   - Charge-off rates
+   - All-loan delinquency rate
+   - All-loan delinquency rate 3-month change
+   - All-loan charge-off rate
+   - All-loan charge-off rate 3-month change
 
 The baseline model uses equal 25% category weights for transparency. The Streamlit dashboard allows users to test custom category-weight assumptions without changing the saved baseline model.
 
 ## Dashboard Features
+The `streamlit_app/app.py` file contains the Streamlit dashboard code. It reads the cleaned SQLite database, loads the saved dashboard tables, builds the interactive charts, and powers the weight/threshold sensitivity controls.
 
 The Streamlit dashboard includes:
 
