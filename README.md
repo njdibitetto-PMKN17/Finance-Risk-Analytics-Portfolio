@@ -4,21 +4,43 @@ This repository contains applied finance and risk analytics projects focused on 
 
 ## Projects
 
-### 1. Credit Risk Early-Warning Dashboard
+### 1. Credit Risk Detection & Monitoring Dashboard
 
-A SQL and Python-based project designed to monitor deterioration in credit conditions using macroeconomic, credit, interest-rate, and market-risk indicators.
+A Python, SQLite, and Streamlit dashboard designed to monitor macro-credit conditions using public FRED data across market stress, labor risk, interest-rate pressure, yield-curve pressure, and realized credit performance.
 
-**Status:** In development  
-**Folder:** `01_credit_risk_early_warning_dashboard/`
+**Folder:** `01_credit_risk_detection_monitoring_dashboard/`
 
-Planned skills demonstrated:
+**Key features:**
 
-- SQL table creation and querying
-- SQL joins and date alignment
-- Python data cleaning and analysis
-- Credit-risk feature engineering
-- Dashboard-style reporting
-- Business-focused risk interpretation
+- Macro-credit risk scoring framework
+- Four-channel category driver analysis
+- Composite risk regime classification
+- Before/after monthly risk comparison
+- Historical recession-context visualization
+- Baseline ARIMA forward-risk outlook
+- Interactive Streamlit dashboard
+- Custom category-weight sensitivity
+- Adjustable regime thresholds
+- Category feature drilldown
+- ARIMA model diagnostics and limitations
+
+**Tools used:**
+
+- Python
+- pandas
+- SQLite
+- Streamlit
+- Altair
+- ARIMA
+- FRED public economic data
+
+**Primary focus areas:**
+
+- Credit-risk monitoring
+- Macro-financial risk interpretation
+- Interest-rate and yield-curve pressure
+- Financial-stress dashboarding
+- Forecast interpretation and model diagnostics
 
 ---
 
