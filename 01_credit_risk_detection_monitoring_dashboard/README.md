@@ -211,3 +211,12 @@ Future improvements could include:
 - Regime-probability forecasting
 - Scenario saving inside the Streamlit dashboard
 - Expanded market-context validation using additional risk assets
+
+## Reproducibility Note
+
+This public version is designed to reproduce the finished Streamlit dashboard, not the full raw API ingestion pipeline.
+
+The dashboard runs from the included SQLite database:
+
+```text
+data/cleaned/credit_risk_detection_monitoring.db
