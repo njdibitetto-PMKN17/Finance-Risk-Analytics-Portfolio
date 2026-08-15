@@ -27,10 +27,8 @@ A Python, SQL (SQLite), and Streamlit dashboard designed to monitor macro-credit
 **Tools / methods used:**
 
 - Python
-- pandas
 - SQL (SQLite)
 - Streamlit
-- Altair
 - ARIMA
 - FRED public economic data
 - Expanding percentile scoring
@@ -56,7 +54,6 @@ This project forecasts one-week-ahead changes in the STLFSI4 financial stress in
 **Tools / methods used:**
 
 - Python
-- pandas
 - Time-series feature engineering
 - ARIMA
 - ARIMAX
@@ -84,7 +81,6 @@ This project forecasts 21-day annualized S&P 500 realized volatility using reali
 **Tools / methods used:**
 
 - Python
-- pandas
 - Realized-volatility feature engineering
 - ARIMA
 - ARIMAX
@@ -129,5 +125,4 @@ Each project folder includes some or all of the following:
 - `full_academic_report.pdf`: full academic report where applicable
 
 #### Note
-
 The tools and methods listed above summarize the main technologies and modeling approaches used across the portfolio. Individual projects may include additional Python libraries for data processing, visualization, statistical modeling, machine learning, and diagnostic evaluation. Package-level details are documented within each project folder where applicable.
