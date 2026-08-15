@@ -17,23 +17,32 @@ The project is designed to answer the following questions:
 7. What does the baseline forward outlook imply for near-term monitoring?
 
 ## Dashboard Screenshots
+
 Click any screenshot to open the full-resolution image.
 
-### Dashboard Overview and Category Drivers
+### Dashboard Overview and Category Driver Comparison
 
-[![Dashboard Overview](assets/crd_shot1.png)](assets/crd_shot1.png)
+This view shows the main dashboard controls, selected before/after month comparison, current composite credit-risk score, current regime, trailing score changes, category-driver chart, and month-to-month category risk changes.
 
-### Feature Drilldown, Historical Score
+[![Dashboard Overview and Category Driver Comparison](assets/crd_shot1.png)](assets/crd_shot1.png)
 
-[![Feature Drilldown and Historical Score](assets/crd_shot2.png)](assets/crd_shot2.png)
+### Category Feature Drilldown and Historical Composite Score
 
-### Forecast and Tables
+This view shows the category-level drilldown for the selected risk channel, including the underlying variables used to build the selected category score. It also shows the historical Composite Credit Risk Score with revised regime thresholds and recession shading.
 
-[![Forecast and Tables](assets/crd_shot3.png)](assets/crd_shot3.png)
+[![Category Feature Drilldown and Historical Composite Score](assets/crd_shot2.png)](assets/crd_shot2.png)
+
+### Forecast Outlook and Forward-Risk Tables
+
+This view shows the historical score with the baseline ARIMA forecast and custom weighted component forecast. It also includes the forward credit-risk outlook table, showing projected scores and projected regime classifications across the current, 1-month, 3-month, and 6-month monitoring windows.
+
+[![Forecast Outlook and Forward-Risk Tables](assets/crd_shot3.png)](assets/crd_shot3.png)
 
 ### Model Diagnostics and ARIMA Interpretation
 
-[![Diagnostic Interpretation](assets/crd_shot4.png)](assets/crd_shot4.png)
+This view shows the composite forecast range, ARIMA model selection summary, diagnostic statistics, and dashboard interpretation. These diagnostics are used to explain where the baseline forecast is useful and where the model should be interpreted cautiously.
+
+[![Model Diagnostics and ARIMA Interpretation](assets/crd_shot4.png)](assets/crd_shot4.png)
 
 ## Methods Used
 
