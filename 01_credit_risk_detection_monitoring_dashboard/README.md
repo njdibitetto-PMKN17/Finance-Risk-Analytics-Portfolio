@@ -23,15 +23,15 @@ Click any screenshot to open the full-resolution image.
 
 [![Dashboard Overview](assets/crd_shot1.png)](assets/crd_shot1.png)
 
-### Feature Drilldown, Historical Score, and Forecast Outlook
+### Feature Drilldown, Historical Score
 
-[![Feature Drilldown and Forecast Outlook](assets/crd_shot2.png)](assets/crd_shot2.png)
+[![Feature Drilldown and Historical Score](assets/crd_shot2.png)](assets/crd_shot2.png)
 
-### Forecast Tables and Model Diagnostics
+### Forecast and Tables
 
-[![Forecast Tables and Diagnostics](assets/crd_shot3.png)](assets/crd_shot3.png)
+[![Forecast and Tables](assets/crd_shot3.png)](assets/crd_shot3.png)
 
-### ARIMA Diagnostic Interpretation
+### Model Diagnostics and ARIMA Interpretation
 
 [![Diagnostic Interpretation](assets/crd_shot4.png)](assets/crd_shot4.png)
 
