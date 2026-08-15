@@ -1,6 +1,6 @@
 # Credit Risk Detection & Monitoring Dashboard
 
-This project builds a reproducible macro-credit risk monitoring dashboard using Python, SQLite, Streamlit, and public FRED data. The dashboard combines macroeconomic, interest-rate, market-volatility, financial-stress, credit-spread, delinquency, charge-off, and recession indicators into a monthly credit-risk scoring framework.
+This project builds a reproducible macro-credit risk monitoring dashboard using Python, SQL (SQLite), Streamlit, and public FRED data. The dashboard combines macroeconomic, interest-rate, market-volatility, financial-stress, credit-spread, delinquency, charge-off, and recession indicators into a monthly credit-risk scoring framework.
 
 The final output is an interactive Streamlit dashboard that summarizes current macro-credit conditions, tracks risk-channel drivers, compares before-and-after monthly changes, displays historical risk regimes, provides a baseline ARIMA forward-risk outlook, and includes sensitivity controls for category weights and regime thresholds.
 
@@ -223,7 +223,7 @@ The ARIMA forecast provides a baseline near-term monitoring path. It is most use
 
 ## How to Run Locally
 
-Clone or download the repository and navigate to this project folder.
+Download and replicate my repository and navigate to this project folder.
 
 Install dependencies:
 
